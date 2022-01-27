@@ -1,0 +1,23 @@
+RAFAEL IRIZARRY: Our next principle is do not distort quantities.
+Here's an example.
+During President Barack Obama's 2011 State Of The Union address,
+the following chart was used to compare the US GDP
+to the GDP of four competing nations.
+Note that judging by the area of the circles,
+the US appears to have an economy over 5 times larger than China,
+and over 30 times larger than France.
+However, when looking at the actual numbers,
+one sees that this is not the case.
+The actual ratios are 2.6, and 5.8 times bigger than China and France
+respectively.
+The reason for this distortion is that the radius, rather than the area,
+was made to be proportional to the quantity, which
+implies that the proportions between the areas is squared.
+So 2.6 turns into 6.5, and 5.8, turns into 34.1.
+Here's a comparison of the circles we get
+if we make the values proportional to the radius, that's on the left, and so
+the area, that's on the right.
+Not surprisingly, ggplot defaults to using area rather than the radius.
+Of course, in this case, we really should not be using area at all,
+since we can use position and length.
+Here's the bar plot comparing the GDPs.
